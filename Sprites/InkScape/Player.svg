@@ -1,0 +1,1759 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="Player.svg"
+   inkscape:version="0.92.4 5da689c313, 2019-01-14"
+   enable-background="new"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 16.933333 16.933334"
+   height="64"
+   width="64">
+  <defs
+     id="defs2">
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path2522"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <linearGradient
+       id="linearGradient864"
+       osb:paint="gradient">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop860" />
+      <stop
+         style="stop-color:#150c06;stop-opacity:1"
+         offset="1"
+         id="stop862" />
+    </linearGradient>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter1039">
+      <feBlend
+         inkscape:collect="always"
+         mode="overlay"
+         in2="BackgroundImage"
+         id="feBlend1041" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="4"
+     inkscape:cx="11.81508"
+     inkscape:cy="-80.487104"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     showborder="false"
+     inkscape:pagecheckerboard="true"
+     inkscape:window-width="1366"
+     inkscape:window-height="719"
+     inkscape:window-x="0"
+     inkscape:window-y="312"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       position="50.799999,-93.133348"
+       orientation="0,1"
+       id="guide1652"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="50.799998,-110.06667"
+       orientation="0,1"
+       id="guide1654"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="50.799998,-126.99999"
+       orientation="0,1"
+       id="guide1660"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="50.799998,-143.93334"
+       orientation="0,1"
+       id="guide1662"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="50.799994,-160.86666"
+       orientation="0,1"
+       id="guide1664"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="50.799998,-177.80001"
+       orientation="0,1"
+       id="guide1666"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="50.799994,-194.73333"
+       orientation="0,1"
+       id="guide1668"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="50.799998,-211.66668"
+       orientation="0,1"
+       id="guide1670"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="50.800005,-228.6"
+       orientation="0,1"
+       id="guide1672"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="50.800005,-245.53335"
+       orientation="0,1"
+       id="guide1674"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="50.799998,-177.80001"
+       orientation="1,0"
+       id="guide1676"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="33.866668,-93.13332"
+       orientation="1,0"
+       id="guide1678"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="16.933334,-25.400011"
+       orientation="1,0"
+       id="guide1680"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-1.3877787e-17,8.4666586"
+       orientation="1,0"
+       id="guide1682"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="50.799998,8.4666586"
+       orientation="0,1"
+       id="guide1684"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="50.799998,-8.466661"
+       orientation="0,1"
+       id="guide1686"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="50.799998,-76.2"
+       orientation="0,1"
+       id="guide1688"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="50.799998,-59.26665"
+       orientation="0,1"
+       id="guide1690"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="50.799998,-42.333331"
+       orientation="0,1"
+       id="guide1692"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="50.79999,-25.400011"
+       orientation="0,1"
+       id="guide1694"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="50.800005,-262.4667"
+       orientation="0,1"
+       id="guide1828"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="50.800013,-279.39999"
+       orientation="0,1"
+       id="guide1836"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="50.799986,-296.33334"
+       orientation="0,1"
+       id="guide1844"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="50.799979,-313.26663"
+       orientation="0,1"
+       id="guide1852"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="50.799998,-330.19998"
+       orientation="0,1"
+       id="guide1858"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="50.799998,-347.13333"
+       orientation="0,1"
+       id="guide1864"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="50.799998,-364.06668"
+       orientation="0,1"
+       id="guide1870"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="50.799998,-381.00003"
+       orientation="0,1"
+       id="guide1876"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="52.387501,-397.93331"
+       orientation="0,1"
+       id="guide1884"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="50.799998,-414.86673"
+       orientation="0,1"
+       id="guide1892"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="50.799998,-431.80002"
+       orientation="0,1"
+       id="guide1900"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="50.799998,-448.73337"
+       orientation="0,1"
+       id="guide1908"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="67.733332,-414.86674"
+       orientation="1,0"
+       id="guide1910"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-280.06665)"
+     style="opacity:0.99;filter:url(#filter1039)">
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="305.46664"
+       x="33.866669"
+       height="8.4666672"
+       width="8.4666672"
+       id="rect2846"
+       style="opacity:1;fill:#483e37;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229166;stroke-opacity:1" />
+    <rect
+       style="opacity:1;fill:#502d16;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229167;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect858"
+       width="8.4666672"
+       height="8.4666672"
+       x="16.933334"
+       y="305.46664"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="288.53333"
+       x="33.866669"
+       height="8.4666672"
+       width="8.4666672"
+       id="rect836"
+       style="opacity:1;fill:#6c5d53;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229166;stroke-opacity:1" />
+    <rect
+       style="opacity:1;fill:#00222b;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229166;stroke-opacity:1"
+       id="rect815"
+       width="8.4666672"
+       height="8.4666672"
+       x="-1.3877788e-17"
+       y="288.53333"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Player.png" />
+    <rect
+       style="opacity:1;fill:#502d16;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229167;stroke-opacity:1"
+       id="rect962"
+       width="8.4666672"
+       height="8.4666672"
+       x="16.933334"
+       y="288.53333"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="294.88333"
+       x="18.25625"
+       height="1.0583334"
+       width="1.0583334"
+       id="rect831"
+       style="opacity:1;fill:#28170b;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.01653647;stroke-opacity:1" />
+    <rect
+       style="opacity:1;fill:#28170b;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.01240235;stroke-opacity:1"
+       id="rect833"
+       width="0.79374999"
+       height="0.79374999"
+       x="23.283333"
+       y="292.50208"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="291.17914"
+       x="18.520834"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect835"
+       style="opacity:1;fill:#28170b;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.00826824;stroke-opacity:1" />
+    <rect
+       style="opacity:1;fill:#28170b;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.00413412;stroke-opacity:1"
+       id="rect837"
+       width="0.26458335"
+       height="0.26458335"
+       x="23.018751"
+       y="290.12082"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Bullet.png"
+       y="304.14374"
+       x="0"
+       height="1.3229166"
+       width="1.3229166"
+       id="rect859"
+       style="opacity:1;fill:#241c1c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.02067057;stroke-opacity:1" />
+    <rect
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Player.png"
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       y="288.98776"
+       x="0.45442262"
+       height="7.5578218"
+       width="7.5578218"
+       id="rect867"
+       style="opacity:1;fill:#004455;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.11809096;stroke-opacity:1" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Floor.png"
+       y="290.91458"
+       x="1.5875"
+       height="1.0583334"
+       width="1.0583334"
+       id="rect863"
+       style="opacity:1;fill:#2ad4ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.01653647;stroke-opacity:1" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Floor.png"
+       y="259.75433"
+       x="-130.80597"
+       height="0.33125722"
+       width="1.9974735"
+       id="rect869"
+       style="opacity:1;fill:#00aad4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.01270993;stroke-opacity:1"
+       transform="rotate(-27.650456)" />
+    <rect
+       transform="rotate(-147.65046)"
+       style="opacity:1;fill:#00aad4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.01270993;stroke-opacity:1"
+       id="rect871"
+       width="1.9974735"
+       height="0.33125722"
+       x="-158.67349"
+       y="-244.10698"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Floor.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       transform="matrix(0.99999998,2.1352286e-4,-0.0121596,0.99992607,0,0)"
+       style="opacity:1;fill:#00aad4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.04259164;stroke-opacity:1"
+       d="m 5.289854,294.09055 4.951782,-0.87862 0.04724,2.90016 -4.999023,-0.51504 z"
+       id="rect873"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <rect
+       transform="matrix(0.99415391,-0.10797224,0.59957155,0.80032116,0,0)"
+       style="opacity:1;fill:#1c2422;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.02220638;stroke-opacity:1"
+       id="rect876"
+       width="5.074584"
+       height="0.39802927"
+       x="-203.8869"
+       y="340.69827"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Floor.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="opacity:1;fill:#2ad4ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.01653647;stroke-opacity:1"
+       id="rect878"
+       width="1.0583334"
+       height="1.0583334"
+       x="5.5864191"
+       y="290.91458"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Floor.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="opacity:1;fill:#28170b;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.00826824;stroke-opacity:1"
+       id="rect854"
+       width="0.5291667"
+       height="0.5291667"
+       x="21.198545"
+       y="308.64801"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="307.05414"
+       x="23.018751"
+       height="0.26458335"
+       width="0.26458335"
+       id="rect856"
+       style="opacity:1;fill:#28170b;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.00413412;stroke-opacity:1" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="-25.400002"
+       x="322.39999"
+       height="8.4666672"
+       width="8.4666672"
+       id="rect2794"
+       style="opacity:1;fill:#502d16;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229167;stroke-opacity:1;paint-order:markers fill stroke"
+       transform="rotate(90)" />
+    <rect
+       style="opacity:1;fill:#28170b;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.00413412;stroke-opacity:1"
+       id="rect2800"
+       width="0.26458335"
+       height="0.26458335"
+       x="328.48541"
+       y="-24.115456"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="rotate(90)" />
+    <rect
+       transform="scale(-1)"
+       style="opacity:1;fill:#502d16;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229167;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect2802"
+       width="8.4666672"
+       height="8.4666672"
+       x="-25.400002"
+       y="-347.79999"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="16.933334"
+       x="-364.73331"
+       height="8.4666672"
+       width="8.4666672"
+       id="rect2828"
+       style="opacity:1;fill:#28170b;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229167;stroke-opacity:1;paint-order:markers fill stroke"
+       transform="rotate(-90)" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="21.07869"
+       x="-361.10324"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect2832"
+       style="opacity:1;fill:#28170b;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.00826824;stroke-opacity:1"
+       transform="rotate(-90)" />
+    <rect
+       style="opacity:1;fill:#28170b;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.00413412;stroke-opacity:1"
+       id="rect2834"
+       width="0.26458335"
+       height="0.26458335"
+       x="-358.98315"
+       y="20.27742"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="rotate(-90)" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="17.441299"
+       x="-357.11194"
+       height="0.79374999"
+       width="0.79374999"
+       id="rect2836"
+       style="opacity:1;fill:#28170b;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.01240235;stroke-opacity:1"
+       transform="rotate(-90)" />
+    <rect
+       style="opacity:1;fill:#6c5d53;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.10748698;stroke-opacity:1"
+       id="rect2838"
+       width="6.8791666"
+       height="6.8791666"
+       x="35.45417"
+       y="305.46664"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="opacity:1;fill:#483e37;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229166;stroke-opacity:1"
+       id="rect2848"
+       width="8.4666672"
+       height="8.4666672"
+       x="322.39999"
+       y="-42.333336"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="rotate(90)" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="-42.333336"
+       x="323.98749"
+       height="6.8791666"
+       width="6.8791666"
+       id="rect2850"
+       style="opacity:1;fill:#6c5d53;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.10748698;stroke-opacity:1"
+       transform="rotate(90)" />
+    <rect
+       transform="scale(-1)"
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="-347.79999"
+       x="-42.333336"
+       height="8.4666672"
+       width="8.4666672"
+       id="rect2856"
+       style="opacity:1;fill:#483e37;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229166;stroke-opacity:1" />
+    <rect
+       transform="scale(-1)"
+       style="opacity:1;fill:#6c5d53;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.10748698;stroke-opacity:1"
+       id="rect2858"
+       width="6.8791666"
+       height="6.8791666"
+       x="-40.745842"
+       y="-347.79999"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="opacity:1;fill:#483e37;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229166;stroke-opacity:1"
+       id="rect2864"
+       width="8.4666672"
+       height="8.4666672"
+       x="-364.73331"
+       y="33.866669"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="rotate(-90)" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="33.866669"
+       x="-363.14581"
+       height="6.8791666"
+       width="6.8791666"
+       id="rect2866"
+       style="opacity:1;fill:#6c5d53;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.10748698;stroke-opacity:1"
+       transform="rotate(-90)" />
+    <rect
+       transform="rotate(-90)"
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="33.866669"
+       x="-381.66666"
+       height="8.4666672"
+       width="8.4666672"
+       id="rect1644"
+       style="opacity:1;fill:#483e37;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229166;stroke-opacity:1" />
+    <rect
+       transform="rotate(-90)"
+       style="opacity:1;fill:#6c5d53;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.11924611;stroke-opacity:1"
+       id="rect1646"
+       width="6.8791666"
+       height="8.4666681"
+       x="-380.07916"
+       y="33.866669"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="opacity:1;fill:#483e37;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229166;stroke-opacity:1"
+       id="rect1648"
+       width="8.4666672"
+       height="8.4666672"
+       x="-398.59998"
+       y="33.866669"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="rotate(-90)" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="33.866669"
+       x="-398.59998"
+       height="8.4666681"
+       width="6.8791666"
+       id="rect1650"
+       style="opacity:1;fill:#6c5d53;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.11924611;stroke-opacity:1"
+       transform="rotate(-90)" />
+    <rect
+       transform="rotate(-90)"
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="33.866669"
+       x="-449.39999"
+       height="8.4666672"
+       width="8.4666672"
+       id="rect1656"
+       style="opacity:1;fill:#483e37;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229166;stroke-opacity:1" />
+    <rect
+       transform="rotate(-90)"
+       style="opacity:1;fill:#6c5d53;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.10458575;stroke-opacity:1"
+       id="rect1658"
+       width="5.2916665"
+       height="8.4666672"
+       x="-447.8125"
+       y="33.866669"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="opacity:1;fill:#483e37;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229166;stroke-opacity:1"
+       id="rect1696"
+       width="8.4666672"
+       height="8.4666672"
+       x="33.866669"
+       y="457.86664"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="457.86664"
+       x="35.454163"
+       height="8.4666672"
+       width="5.2916665"
+       id="rect1698"
+       style="opacity:1;fill:#6c5d53;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.10458575;stroke-opacity:1" />
+    <rect
+       transform="rotate(-90)"
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="33.866669"
+       x="-483.26666"
+       height="8.4666672"
+       width="8.4666672"
+       id="rect1700"
+       style="opacity:1;fill:#483e37;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229166;stroke-opacity:1" />
+    <rect
+       transform="rotate(-90)"
+       style="opacity:1;fill:#6c5d53;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.10748698;stroke-opacity:1"
+       id="rect1702"
+       width="6.8791666"
+       height="6.8791666"
+       x="-481.67917"
+       y="33.866669"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       transform="rotate(-90)"
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="33.866669"
+       x="-476.38748"
+       height="1.5875"
+       width="1.5875"
+       id="rect1704"
+       style="opacity:1;fill:#483e37;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.02480468;stroke-opacity:1" />
+    <rect
+       style="opacity:1;fill:#483e37;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229166;stroke-opacity:1"
+       id="rect1706"
+       width="8.4666672"
+       height="8.4666672"
+       x="33.866661"
+       y="491.73331"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="491.73331"
+       x="35.454155"
+       height="6.8791666"
+       width="6.8791666"
+       id="rect1708"
+       style="opacity:1;fill:#6c5d53;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.10748698;stroke-opacity:1" />
+    <rect
+       style="opacity:1;fill:#483e37;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.02480468;stroke-opacity:1"
+       id="rect1710"
+       width="1.5875"
+       height="1.5875"
+       x="40.745842"
+       y="491.73331"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="-42.333336"
+       x="508.66666"
+       height="8.4666672"
+       width="8.4666672"
+       id="rect1712"
+       style="opacity:1;fill:#483e37;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229166;stroke-opacity:1"
+       transform="rotate(90)" />
+    <rect
+       style="opacity:1;fill:#6c5d53;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.10748698;stroke-opacity:1"
+       id="rect1714"
+       width="6.8791666"
+       height="6.8791666"
+       x="510.25415"
+       y="-42.333336"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="rotate(90)" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="-42.333336"
+       x="515.54584"
+       height="1.5875"
+       width="1.5875"
+       id="rect1716"
+       style="opacity:1;fill:#483e37;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.02480468;stroke-opacity:1"
+       transform="rotate(90)" />
+    <rect
+       transform="scale(-1)"
+       style="opacity:1;fill:#483e37;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229166;stroke-opacity:1"
+       id="rect1718"
+       width="8.4666672"
+       height="8.4666672"
+       x="-42.333344"
+       y="-534.06665"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       transform="scale(-1)"
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="-534.06665"
+       x="-40.74585"
+       height="6.8791666"
+       width="6.8791666"
+       id="rect1720"
+       style="opacity:1;fill:#6c5d53;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.10748698;stroke-opacity:1" />
+    <rect
+       transform="scale(-1)"
+       style="opacity:1;fill:#483e37;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.02480468;stroke-opacity:1"
+       id="rect1722"
+       width="1.5875"
+       height="1.5875"
+       x="-35.454163"
+       y="-534.06665"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="407.06665"
+       x="33.866669"
+       height="8.4666672"
+       width="8.4666672"
+       id="rect1724"
+       style="opacity:1;fill:#483e37;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229166;stroke-opacity:1" />
+    <rect
+       style="opacity:1;fill:#6c5d53;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.11924611;stroke-opacity:1"
+       id="rect1726"
+       width="6.8791666"
+       height="8.4666681"
+       x="33.866669"
+       y="407.06665"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="opacity:1;fill:#483e37;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229166;stroke-opacity:1"
+       id="rect1728"
+       width="8.4666672"
+       height="8.4666672"
+       x="-42.333336"
+       y="-432.46664"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="scale(-1)" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="-432.46664"
+       x="-42.333336"
+       height="8.4666681"
+       width="6.8791666"
+       id="rect1730"
+       style="opacity:1;fill:#6c5d53;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.11924611;stroke-opacity:1"
+       transform="scale(-1)" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="-551"
+       x="-42.333336"
+       height="8.4666672"
+       width="8.4666672"
+       id="rect1732"
+       style="opacity:1;fill:#483e37;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229166;stroke-opacity:1"
+       transform="scale(-1)" />
+    <rect
+       style="opacity:1;fill:#6c5d53;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.08268229;stroke-opacity:1"
+       id="rect1734"
+       width="5.2916665"
+       height="5.2916665"
+       x="-40.745834"
+       y="-549.41248"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="scale(-1)" />
+    <rect
+       style="opacity:1;fill:#241c1c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229166;stroke-opacity:1"
+       id="rect1738"
+       width="8.4666672"
+       height="8.4666672"
+       x="50.799999"
+       y="305.46664"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="opacity:1;fill:#483737;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229166;stroke-opacity:1"
+       id="rect1740"
+       width="8.4666672"
+       height="8.4666672"
+       x="50.799999"
+       y="288.53333"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="305.46664"
+       x="52.387501"
+       height="6.8791666"
+       width="6.8791666"
+       id="rect1748"
+       style="opacity:1;fill:#483737;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.10748698;stroke-opacity:1" />
+    <rect
+       transform="rotate(90)"
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="-59.266666"
+       x="322.39999"
+       height="8.4666672"
+       width="8.4666672"
+       id="rect1754"
+       style="opacity:1;fill:#241c1c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229166;stroke-opacity:1" />
+    <rect
+       transform="rotate(90)"
+       style="opacity:1;fill:#483737;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.10748698;stroke-opacity:1"
+       id="rect1756"
+       width="6.8791666"
+       height="6.8791666"
+       x="323.98749"
+       y="-59.266666"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="opacity:1;fill:#241c1c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229166;stroke-opacity:1"
+       id="rect1758"
+       width="8.4666672"
+       height="8.4666672"
+       x="-59.266666"
+       y="-347.79999"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="scale(-1)" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="-347.79999"
+       x="-57.679173"
+       height="6.8791666"
+       width="6.8791666"
+       id="rect1760"
+       style="opacity:1;fill:#483737;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.10748698;stroke-opacity:1"
+       transform="scale(-1)" />
+    <rect
+       transform="rotate(-90)"
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="50.799999"
+       x="-364.73331"
+       height="8.4666672"
+       width="8.4666672"
+       id="rect1764"
+       style="opacity:1;fill:#241c1c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229166;stroke-opacity:1" />
+    <rect
+       transform="rotate(-90)"
+       style="opacity:1;fill:#483737;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.10748698;stroke-opacity:1"
+       id="rect1766"
+       width="6.8791666"
+       height="6.8791666"
+       x="-363.14581"
+       y="50.799999"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="opacity:1;fill:#241c1c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229166;stroke-opacity:1"
+       id="rect1770"
+       width="8.4666672"
+       height="8.4666672"
+       x="-381.66666"
+       y="50.799999"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="rotate(-90)" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="50.799999"
+       x="-380.07916"
+       height="8.4666681"
+       width="6.8791666"
+       id="rect1772"
+       style="opacity:1;fill:#483737;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.11924611;stroke-opacity:1"
+       transform="rotate(-90)" />
+    <rect
+       transform="rotate(-90)"
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="50.799999"
+       x="-398.59998"
+       height="8.4666672"
+       width="8.4666672"
+       id="rect1774"
+       style="opacity:1;fill:#241c1c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229166;stroke-opacity:1" />
+    <rect
+       transform="rotate(-90)"
+       style="opacity:1;fill:#483737;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.11924611;stroke-opacity:1"
+       id="rect1776"
+       width="6.8791666"
+       height="8.4666681"
+       x="-398.59998"
+       y="50.799999"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="opacity:1;fill:#241c1c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229166;stroke-opacity:1"
+       id="rect1778"
+       width="8.4666672"
+       height="8.4666672"
+       x="-449.39999"
+       y="50.799999"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="rotate(-90)" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="50.799999"
+       x="-447.8125"
+       height="8.4666672"
+       width="5.2916665"
+       id="rect1780"
+       style="opacity:1;fill:#483737;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.10458575;stroke-opacity:1"
+       transform="rotate(-90)" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="457.86664"
+       x="50.799999"
+       height="8.4666672"
+       width="8.4666672"
+       id="rect1782"
+       style="opacity:1;fill:#241c1c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229166;stroke-opacity:1" />
+    <rect
+       style="opacity:1;fill:#483737;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.10458575;stroke-opacity:1"
+       id="rect1784"
+       width="5.2916665"
+       height="8.4666672"
+       x="52.387493"
+       y="457.86664"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="opacity:1;fill:#241c1c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229166;stroke-opacity:1"
+       id="rect1786"
+       width="8.4666672"
+       height="8.4666672"
+       x="-483.26666"
+       y="50.799999"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="rotate(-90)" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="50.799999"
+       x="-481.67917"
+       height="6.8791666"
+       width="6.8791666"
+       id="rect1788"
+       style="opacity:1;fill:#483737;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.10748698;stroke-opacity:1"
+       transform="rotate(-90)" />
+    <rect
+       style="opacity:1;fill:#241c1c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.02480468;stroke-opacity:1"
+       id="rect1790"
+       width="1.5875"
+       height="1.5875"
+       x="-476.38748"
+       y="50.799999"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="rotate(-90)" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="491.73331"
+       x="50.799992"
+       height="8.4666672"
+       width="8.4666672"
+       id="rect1792"
+       style="opacity:1;fill:#241c1c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229166;stroke-opacity:1" />
+    <rect
+       style="opacity:1;fill:#483737;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.10748698;stroke-opacity:1"
+       id="rect1794"
+       width="6.8791666"
+       height="6.8791666"
+       x="52.387486"
+       y="491.73331"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="491.73331"
+       x="57.679173"
+       height="1.5875"
+       width="1.5875"
+       id="rect1796"
+       style="opacity:1;fill:#241c1c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.02480468;stroke-opacity:1" />
+    <rect
+       transform="rotate(90)"
+       style="opacity:1;fill:#241c1c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229166;stroke-opacity:1"
+       id="rect1798"
+       width="8.4666672"
+       height="8.4666672"
+       x="508.66666"
+       y="-59.266666"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       transform="rotate(90)"
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="-59.266666"
+       x="510.25415"
+       height="6.8791666"
+       width="6.8791666"
+       id="rect1800"
+       style="opacity:1;fill:#483737;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.10748698;stroke-opacity:1" />
+    <rect
+       transform="rotate(90)"
+       style="opacity:1;fill:#241c1c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.02480468;stroke-opacity:1"
+       id="rect1802"
+       width="1.5875"
+       height="1.5875"
+       x="515.54584"
+       y="-59.266666"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="-534.06665"
+       x="-59.266674"
+       height="8.4666672"
+       width="8.4666672"
+       id="rect1804"
+       style="opacity:1;fill:#241c1c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229166;stroke-opacity:1"
+       transform="scale(-1)" />
+    <rect
+       style="opacity:1;fill:#483737;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.10748698;stroke-opacity:1"
+       id="rect1806"
+       width="6.8791666"
+       height="6.8791666"
+       x="-57.67918"
+       y="-534.06665"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="scale(-1)" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="-534.06665"
+       x="-52.387493"
+       height="1.5875"
+       width="1.5875"
+       id="rect1808"
+       style="opacity:1;fill:#241c1c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.02480468;stroke-opacity:1"
+       transform="scale(-1)" />
+    <rect
+       style="opacity:1;fill:#241c1c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229166;stroke-opacity:1"
+       id="rect1810"
+       width="8.4666672"
+       height="8.4666672"
+       x="50.799999"
+       y="407.06665"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="407.06665"
+       x="50.799999"
+       height="8.4666681"
+       width="6.8791666"
+       id="rect1812"
+       style="opacity:1;fill:#483737;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.11924611;stroke-opacity:1" />
+    <rect
+       transform="scale(-1)"
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="-432.46664"
+       x="-59.266666"
+       height="8.4666672"
+       width="8.4666672"
+       id="rect1814"
+       style="opacity:1;fill:#241c1c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229166;stroke-opacity:1" />
+    <rect
+       transform="scale(-1)"
+       style="opacity:1;fill:#483737;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.11924611;stroke-opacity:1"
+       id="rect1816"
+       width="6.8791666"
+       height="8.4666681"
+       x="-59.266666"
+       y="-432.46664"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       transform="scale(-1)"
+       style="opacity:1;fill:#241c1c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229166;stroke-opacity:1"
+       id="rect1818"
+       width="8.4666672"
+       height="8.4666672"
+       x="-59.266666"
+       y="-551"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       transform="scale(-1)"
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="-549.41248"
+       x="-57.679165"
+       height="5.2916665"
+       width="5.2916665"
+       id="rect1820"
+       style="opacity:1;fill:#483737;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.08268229;stroke-opacity:1" />
+    <rect
+       transform="scale(-1)"
+       style="opacity:1;fill:#241c1c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229166;stroke-opacity:1"
+       id="rect1822"
+       width="8.4666672"
+       height="8.4666672"
+       x="-59.266674"
+       y="-567.93335"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       transform="scale(-1)"
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="-567.93335"
+       x="-59.266674"
+       height="8.4666948"
+       width="8.4666605"
+       id="rect1824"
+       style="opacity:1;fill:#483737;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229184;stroke-opacity:1" />
+    <rect
+       transform="scale(-1)"
+       style="opacity:1;fill:#241c1c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.02480468;stroke-opacity:1"
+       id="rect1826"
+       width="1.5875"
+       height="1.5875"
+       x="-52.387493"
+       y="-567.93335"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="50.799988"
+       x="-584.86664"
+       height="8.4666672"
+       width="8.4666672"
+       id="rect1830"
+       style="opacity:1;fill:#241c1c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229166;stroke-opacity:1"
+       transform="rotate(-90)" />
+    <rect
+       style="opacity:1;fill:#483737;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229184;stroke-opacity:1"
+       id="rect1832"
+       width="8.4666605"
+       height="8.4666948"
+       x="-584.86664"
+       y="50.799988"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="rotate(-90)" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="50.799988"
+       x="-577.98743"
+       height="1.5875"
+       width="1.5875"
+       id="rect1834"
+       style="opacity:1;fill:#241c1c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.02480468;stroke-opacity:1"
+       transform="rotate(-90)" />
+    <rect
+       style="opacity:1;fill:#241c1c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229166;stroke-opacity:1"
+       id="rect1838"
+       width="8.4666672"
+       height="8.4666672"
+       x="50.79998"
+       y="593.33331"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="593.33331"
+       x="50.79998"
+       height="8.4666948"
+       width="8.4666605"
+       id="rect1840"
+       style="opacity:1;fill:#483737;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229184;stroke-opacity:1" />
+    <rect
+       style="opacity:1;fill:#241c1c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.02480468;stroke-opacity:1"
+       id="rect1842"
+       width="1.5875"
+       height="1.5875"
+       x="57.679192"
+       y="593.33331"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="-59.266682"
+       x="610.2666"
+       height="8.4666672"
+       width="8.4666672"
+       id="rect1846"
+       style="opacity:1;fill:#241c1c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229166;stroke-opacity:1"
+       transform="rotate(90)" />
+    <rect
+       style="opacity:1;fill:#483737;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229184;stroke-opacity:1"
+       id="rect1848"
+       width="8.4666605"
+       height="8.4666948"
+       x="610.2666"
+       y="-59.266682"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="rotate(90)" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="-59.266682"
+       x="617.14581"
+       height="1.5875"
+       width="1.5875"
+       id="rect1850"
+       style="opacity:1;fill:#241c1c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.02480468;stroke-opacity:1"
+       transform="rotate(90)" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="-635.66663"
+       x="-59.266666"
+       height="8.4666672"
+       width="8.4666672"
+       id="rect1854"
+       style="opacity:1;fill:#241c1c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229166;stroke-opacity:1"
+       transform="scale(-1)" />
+    <rect
+       style="opacity:1;fill:#483737;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.09427232;stroke-opacity:1"
+       id="rect1856"
+       width="5.2916665"
+       height="6.8791666"
+       x="-57.679165"
+       y="-635.66663"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="scale(-1)" />
+    <rect
+       transform="rotate(-90)"
+       style="opacity:1;fill:#241c1c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229166;stroke-opacity:1"
+       id="rect1860"
+       width="8.4666672"
+       height="8.4666672"
+       x="-652.59998"
+       y="50.799999"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       transform="rotate(-90)"
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="50.799999"
+       x="-651.01245"
+       height="6.8791666"
+       width="5.2916665"
+       id="rect1862"
+       style="opacity:1;fill:#483737;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.09427232;stroke-opacity:1" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="661.06665"
+       x="50.799999"
+       height="8.4666672"
+       width="8.4666672"
+       id="rect1866"
+       style="opacity:1;fill:#241c1c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229166;stroke-opacity:1" />
+    <rect
+       style="opacity:1;fill:#483737;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.09427232;stroke-opacity:1"
+       id="rect1868"
+       width="5.2916665"
+       height="6.8791666"
+       x="52.387524"
+       y="661.06665"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="opacity:1;fill:#241c1c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229166;stroke-opacity:1"
+       id="rect1872"
+       width="8.4666672"
+       height="8.4666672"
+       x="678"
+       y="-59.266666"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="rotate(90)" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="-59.266666"
+       x="679.58752"
+       height="6.8791666"
+       width="5.2916665"
+       id="rect1874"
+       style="opacity:1;fill:#483737;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.09427232;stroke-opacity:1"
+       transform="rotate(90)" />
+    <rect
+       transform="rotate(-90)"
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="50.799999"
+       x="-703.39996"
+       height="8.4666672"
+       width="8.4666672"
+       id="rect1878"
+       style="opacity:1;fill:#241c1c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229166;stroke-opacity:1" />
+    <rect
+       transform="rotate(-90)"
+       style="opacity:1;fill:#483737;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.11924583;stroke-opacity:1"
+       id="rect1880"
+       width="8.46663"
+       height="6.8791666"
+       x="-703.39996"
+       y="50.799999"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       transform="rotate(-90)"
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="50.799999"
+       x="-696.52081"
+       height="1.5875"
+       width="1.5875"
+       id="rect1882"
+       style="opacity:1;fill:#241c1c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.02480468;stroke-opacity:1" />
+    <rect
+       style="opacity:1;fill:#241c1c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229166;stroke-opacity:1"
+       id="rect1886"
+       width="8.4666672"
+       height="8.4666672"
+       x="50.799999"
+       y="711.86664"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="711.86664"
+       x="50.799999"
+       height="6.8791666"
+       width="8.46663"
+       id="rect1888"
+       style="opacity:1;fill:#483737;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.11924583;stroke-opacity:1" />
+    <rect
+       style="opacity:1;fill:#241c1c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.02480468;stroke-opacity:1"
+       id="rect1890"
+       width="1.5875"
+       height="1.5875"
+       x="57.67915"
+       y="711.86664"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="-59.266666"
+       x="728.79999"
+       height="8.4666672"
+       width="8.4666672"
+       id="rect1894"
+       style="opacity:1;fill:#241c1c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229166;stroke-opacity:1"
+       transform="rotate(90)" />
+    <rect
+       style="opacity:1;fill:#483737;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.11924583;stroke-opacity:1"
+       id="rect1896"
+       width="8.46663"
+       height="6.8791666"
+       x="728.79999"
+       y="-59.266666"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="rotate(90)" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="-59.266666"
+       x="735.67914"
+       height="1.5875"
+       width="1.5875"
+       id="rect1898"
+       style="opacity:1;fill:#241c1c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.02480468;stroke-opacity:1"
+       transform="rotate(90)" />
+    <rect
+       transform="scale(-1)"
+       style="opacity:1;fill:#241c1c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229166;stroke-opacity:1"
+       id="rect1902"
+       width="8.4666672"
+       height="8.4666672"
+       x="-59.266666"
+       y="-754.20001"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       transform="scale(-1)"
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="-754.20001"
+       x="-59.266666"
+       height="6.8791666"
+       width="8.46663"
+       id="rect1904"
+       style="opacity:1;fill:#483737;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.11924583;stroke-opacity:1" />
+    <rect
+       transform="scale(-1)"
+       style="opacity:1;fill:#241c1c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.02480468;stroke-opacity:1"
+       id="rect1906"
+       width="1.5875"
+       height="1.5875"
+       x="-52.387516"
+       y="-754.20001"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="opacity:1;fill:#241c1c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229166;stroke-opacity:1"
+       id="rect1912"
+       width="8.4666672"
+       height="8.4666672"
+       x="-703.39996"
+       y="67.73333"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="rotate(-90)" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="67.73333"
+       x="-703.39996"
+       height="6.8791666"
+       width="8.46663"
+       id="rect1914"
+       style="opacity:1;fill:#483737;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.11924583;stroke-opacity:1"
+       transform="rotate(-90)" />
+    <rect
+       style="opacity:1;fill:#241c1c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.02480468;stroke-opacity:1"
+       id="rect1916"
+       width="1.5875"
+       height="1.5875"
+       x="-703.39996"
+       y="67.73333"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="rotate(-90)" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="711.86664"
+       x="67.73333"
+       height="8.4666672"
+       width="8.4666672"
+       id="rect1918"
+       style="opacity:1;fill:#241c1c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229166;stroke-opacity:1" />
+    <rect
+       style="opacity:1;fill:#483737;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.11924583;stroke-opacity:1"
+       id="rect1920"
+       width="8.46663"
+       height="6.8791666"
+       x="67.73333"
+       y="711.86664"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="711.8667"
+       x="67.73333"
+       height="1.5875"
+       width="1.5875"
+       id="rect1922"
+       style="opacity:1;fill:#241c1c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.02480468;stroke-opacity:1" />
+    <rect
+       transform="rotate(90)"
+       style="opacity:1;fill:#241c1c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229166;stroke-opacity:1"
+       id="rect1924"
+       width="8.4666672"
+       height="8.4666672"
+       x="728.79999"
+       y="-76.199997"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       transform="rotate(90)"
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="-76.199997"
+       x="728.79999"
+       height="6.8791666"
+       width="8.46663"
+       id="rect1926"
+       style="opacity:1;fill:#483737;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.11924583;stroke-opacity:1" />
+    <rect
+       transform="rotate(90)"
+       style="opacity:1;fill:#241c1c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.02480468;stroke-opacity:1"
+       id="rect1928"
+       width="1.5875"
+       height="1.5875"
+       x="728.79999"
+       y="-76.199997"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="-754.20001"
+       x="-76.199997"
+       height="8.4666672"
+       width="8.4666672"
+       id="rect1930"
+       style="opacity:1;fill:#241c1c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229166;stroke-opacity:1"
+       transform="scale(-1)" />
+    <rect
+       style="opacity:1;fill:#483737;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.11924583;stroke-opacity:1"
+       id="rect1932"
+       width="8.46663"
+       height="6.8791666"
+       x="-76.199997"
+       y="-754.20001"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="scale(-1)" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Tiles.png"
+       y="-754.20001"
+       x="-76.199997"
+       height="1.5875"
+       width="1.5875"
+       id="rect1934"
+       style="opacity:1;fill:#241c1c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.02480468;stroke-opacity:1"
+       transform="scale(-1)" />
+    <rect
+       inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Enemy.png"
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       y="322.39999"
+       x="-1.3877788e-17"
+       height="8.4666672"
+       width="8.4666672"
+       id="rect1017"
+       style="opacity:1;fill:#550000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.13229166;stroke-opacity:1" />
+    <path
+       style="opacity:1;fill:#501616;fill-opacity:0.99215686;fill-rule:nonzero;stroke:none;stroke-width:0;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.99215686;paint-order:markers fill stroke"
+       id="path1019"
+       sodipodi:type="arc"
+       sodipodi:cx="4.1341147"
+       sodipodi:cy="326.60025"
+       sodipodi:rx="2.2820313"
+       sodipodi:ry="2.2820313"
+       sodipodi:start="0"
+       sodipodi:end="5.7610937"
+       d="m 6.416146,326.60025 a 2.2820313,2.2820313 0 0 1 -1.9850189,2.26262 2.2820313,2.2820313 0 0 1 -2.5017298,-1.67365 2.2820313,2.2820313 0 0 1 1.3338056,-2.69828 2.2820313,2.2820313 0 0 1 2.8489264,0.97127 l -1.9780146,1.13804 z" />
+  </g>
+</svg>

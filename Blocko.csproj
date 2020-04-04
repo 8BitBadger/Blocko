@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Tools</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7C69224A-0979-42F2-B45F-627657D85955}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <OutputPath>.mono/temp/bin/$(Configuration)</OutputPath>
+    <RootNamespace>Blocko</RootNamespace>
+    <AssemblyName>Blocko</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <GodotProjectGeneratorVersion>1.0.7374.17554</GodotProjectGeneratorVersion>
+    <BaseIntermediateOutputPath>.mono/temp/obj</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>$(BaseIntermediateOutputPath)/$(Configuration)</IntermediateOutputPath>
+    <ApiConfiguration Condition=" '$(Configuration)' != 'Release' ">Debug</ApiConfiguration>
+    <ApiConfiguration Condition=" '$(Configuration)' == 'Release' ">Release</ApiConfiguration>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>portable</DebugType>
+    <Optimize>false</Optimize>
+    <DefineConstants>$(GodotDefineConstants);GODOT;DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>portable</DebugType>
+    <Optimize>true</Optimize>
+    <DefineConstants>$(GodotDefineConstants);GODOT;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Tools|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>portable</DebugType>
+    <Optimize>false</Optimize>
+    <DefineConstants>$(GodotDefineConstants);GODOT;DEBUG;TOOLS;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="GodotSharp">
+      <HintPath>$(ProjectDir)/.mono/assemblies/$(ApiConfiguration)/GodotSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="GodotSharpEditor" Condition=" '$(Configuration)' == 'Tools' ">
+      <HintPath>$(ProjectDir)/.mono/assemblies/$(ApiConfiguration)/GodotSharpEditor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Scripts\AreaScan.cs" />
+    <Compile Include="Scripts\Bullet.cs" />
+    <Compile Include="Scripts\EventSystem\MapInfoRequestEvent.cs" />
+    <Compile Include="Scripts\EventSystem\MouseClickEvent.cs" />
+    <Compile Include="Scripts\EventSystem\DeathEvent.cs" />
+    <Compile Include="Scripts\EventSystem\Event.cs" />
+    <Compile Include="Scripts\EventSystem\SendHealthEvent.cs" />
+    <Compile Include="Scripts\EventSystem\HitEvent.cs" />
+    <Compile Include="Scripts\EventSystem\InputCallbackEvent.cs" />
+    <Compile Include="Scripts\EventSystem\RequestPathEvent.cs" />
+    <Compile Include="Scripts\EventSystem\TileDestroyEvent.cs" />
+    <Compile Include="Scripts\Health.cs" />
+    <Compile Include="Scripts\InputControl.cs" />
+    <Compile Include="Scripts\InputMove.cs" />
+    <Compile Include="Scripts\Lighting.cs" />
+    <Compile Include="Scripts\Main.cs" />
+    <Compile Include="Scripts\Map.cs" />
+    <Compile Include="Scripts\MapInfoRequest.cs" />
+    <Compile Include="Scripts\MouseClick.cs" />
+    <Compile Include="Scripts\MoveAI.cs" />
+    <Compile Include="Scripts\PathFinding.cs" />
+    <Compile Include="Scripts\Tile.cs" />
+    <Compile Include="Scripts\TileVisibiltyCheck.cs" />
+    <Compile Include="Scripts\Weapon.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

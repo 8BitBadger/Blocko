@@ -1,0 +1,23 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Scripts/Lighting.cs" type="Script" id=1]
+[ext_resource path="res://Sprites/lighting.png" type="Texture" id=2]
+
+[sub_resource type="Shader" id=1]
+code = "shader_type canvas_item;
+
+void fragment()
+{
+	float alpha = 0.5f;
+	COLOR = vec4(vec3(0.0), alpha);
+	
+}"
+
+[sub_resource type="ShaderMaterial" id=2]
+shader = SubResource( 1 )
+
+[node name="Lighting" type="Sprite"]
+material = SubResource( 2 )
+texture = ExtResource( 2 )
+centered = false
+script = ExtResource( 1 )

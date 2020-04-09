@@ -124,8 +124,7 @@ public class Main : Node2D
     }
     private void SpawnArtifact(int tileType)
     {
-        //Look for the largest artifact area
-        bool playerPlaced = false;
+        bool artifactPlaced = false;
         for (int y = 0; y < mapSize.y; y++)
         {
             for (int x = 0; x < mapSize.x; x++)
@@ -140,7 +139,7 @@ public class Main : Node2D
                     ((Node2D)player).Position = new Vector2(x * 32, y * 32);
                     //Set the player as a child of the main scene
                     AddChild(player);
-                    playerPlaced = true;
+                    artifactPlaced = true;
                     break;
                 }
             }

@@ -8,7 +8,8 @@ public enum TileType
     NONE = -1,
     FLOOR,
     WALL,
-    WALL_BREAKABLE
+    WALL_BREAKABLE,
+    TREASURE
 };
 public class Tile
 {

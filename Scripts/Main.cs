@@ -27,6 +27,8 @@ public class Main : Node2D
     TileMap tileMap;
     Vector2 mapSize;
 
+    Vector2[] largestArtifactArea;
+
     // Called when the node enters the scene tree for the first time.
     public override void _Ready()
     {
@@ -62,7 +64,6 @@ public class Main : Node2D
         {
             ClearScenes();
         }
-
     }
 
     private void SpawnScenes()
@@ -94,7 +95,7 @@ public class Main : Node2D
         for (int i = 0; i < enemyList.Count; i++)
         {
             if (enemyList[i] != null) enemyList[i].QueueFree();
-        } 
+        }
         player.QueueFree();
     }
 
@@ -120,6 +121,62 @@ public class Main : Node2D
                 }
             }
         }
+    }
+    private void SpawnArtifact(int tileType)
+    {
+        //Look for the largest artifact area
+        bool playerPlaced = false;
+        for (int y = 0; y < mapSize.y; y++)
+        {
+            for (int x = 0; x < mapSize.x; x++)
+            {
+                if (tileMap.GetCell(x, y) == 3)
+                {
+                    //Instanciate the player object
+                    player = playerScene.Instance();
+                    //Set the name of the player
+                    player.Name = "Player";
+                    //Set the position of the player at spawn
+                    ((Node2D)player).Position = new Vector2(x * 32, y * 32);
+                    //Set the player as a child of the main scene
+                    AddChild(player);
+                    playerPlaced = true;
+                    break;
+                }
+            }
+        }
+
+    }
+
+    private void GetArea(Vector2 origen, int tileType)
+    {
+        List<Vector2> scanList = new List<Vector2>();
+        List<Vector2> scanedList = new List<Vector2>();
+
+        scanList.Add(origen);
+
+        for (int i = 0; i < scanList.Count; i++)
+        {
+            for (int y = (int)(scanList[i].y - 1); y < (int)(scanList[i].y + 1); y++)
+            {
+                for (int x = (int)(scanList[i].x - 1); x < (int)(scanList[i].y + 1); x++)
+                {
+                    if (tileMap.GetCell(x, y) == tileType && scanList[i] != new Vector2(x, y))
+                    {
+                        scanList.Add(new Vector2(x, y));
+                    }
+                }
+            }
+            scanedList.Add(scanList[i]);
+            scanList.RemoveAt(i);
+        }
+        //Add the origen tile to a scan list
+        //Get the neighbours of all the tiles inside the scan list and add them to the scan list if they are of the same type and are not on the scaned or scan list
+        //Then move the origen tile to the scaned list
+        //Repeat above code until scan list is comepletly empty
+
+
+
     }
 
     private void SpawnEnemies()

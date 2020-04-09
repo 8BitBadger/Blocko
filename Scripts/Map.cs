@@ -68,9 +68,13 @@ public class Map : Node2D
                 {
                     tileDataMap[x, y].type = TileType.WALL_BREAKABLE;
                 }
-                else
+                else if (a < 0.7f)
                 {
                     tileDataMap[x, y].type = TileType.FLOOR;
+                }
+                else
+                {
+                    tileDataMap[x, y].type = TileType.TREASURE;
                 }
                 //Set the for edges of the map to be walls
                 if (x == 0) tileDataMap[x, y].type = TileType.WALL;

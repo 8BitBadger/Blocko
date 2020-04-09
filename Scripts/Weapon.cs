@@ -32,12 +32,12 @@ public class Weapon : Node2D
                 bullet = bulletScene.Instance();
                 //Set the direction of the bullet when instanced
                 AddChild(bullet);
-                
                 ammo--;
             }
-            //Chekc the info frkm
-            //Shoot the darn brick here lol
         }
+        SendAmmoEvent saei = new SendAmmoEvent();
+        saei.ammo = ammo;
+        saei.FireEvent();
     }
     public override void _ExitTree()
     {

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Wall1.png-f9cdb58f7a5c7802280df0fadd762301.stex"
+path="res://.import/Buttons.svg-4e96d446a99f3cbbe56bb9b3ccff8b29.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Wall1.png"
-dest_files=[ "res://.import/Wall1.png-f9cdb58f7a5c7802280df0fadd762301.stex" ]
+source_file="res://Sprites/InkScape/Buttons.svg"
+dest_files=[ "res://.import/Buttons.svg-4e96d446a99f3cbbe56bb9b3ccff8b29.stex" ]
 
 [params]
 
@@ -20,7 +20,7 @@ compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=false
+flags/filter=true
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2

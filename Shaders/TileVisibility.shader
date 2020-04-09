@@ -1,6 +1,7 @@
 shader_type canvas_item;
 
 uniform float distanceToPlayer;
+uniform bool seen;
 
 void fragment()
 {

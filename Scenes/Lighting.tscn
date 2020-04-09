@@ -6,11 +6,12 @@
 [sub_resource type="Shader" id=1]
 code = "shader_type canvas_item;
 
+uniform sampler2D lightValues;
+
 void fragment()
 {
-	float alpha = 0.5f;
+	float alpha = 1.0 - texture(lightValues, UV).r;
 	COLOR = vec4(vec3(0.0), alpha);
-	
 }"
 
 [sub_resource type="ShaderMaterial" id=2]

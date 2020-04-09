@@ -49,12 +49,12 @@
     <filter
        inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
-       id="filter1039">
+       id="filter1008">
       <feBlend
          inkscape:collect="always"
-         mode="overlay"
+         mode="hard-light"
          in2="BackgroundImage"
-         id="feBlend1041" />
+         id="feBlend1010" />
     </filter>
   </defs>
   <sodipodi:namedview
@@ -65,8 +65,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="4"
-     inkscape:cx="11.81508"
-     inkscape:cy="-80.487104"
+     inkscape:cx="71.06508"
+     inkscape:cy="-28.737104"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -263,7 +263,7 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-280.06665)"
-     style="opacity:0.99;filter:url(#filter1039)">
+     style="opacity:1;filter:url(#filter1008)">
     <rect
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
@@ -363,7 +363,7 @@
        height="1.3229166"
        width="1.3229166"
        id="rect859"
-       style="opacity:1;fill:#241c1c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.02067057;stroke-opacity:1" />
+       style="opacity:1;fill:#d38d5f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.02067057;stroke-opacity:1" />
     <rect
        inkscape:export-filename="/home/bitbadger/GameProjects/Blocko/Sprites/Player.png"
        inkscape:export-ydpi="96"

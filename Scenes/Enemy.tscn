@@ -1,8 +1,9 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://Sprites/Enemy.png" type="Texture" id=1]
 [ext_resource path="res://Scenes/Health.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Scripts/MoveAI.cs" type="Script" id=3]
+[ext_resource path="res://Sprites/EvilEyes.png" type="Texture" id=4]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 15.5902, 15.3164 )
@@ -10,7 +11,9 @@ extents = Vector2( 15.5902, 15.3164 )
 [sub_resource type="CircleShape2D" id=2]
 radius = 397.0
 
-[node name="Enemy" type="KinematicBody2D"]
+[node name="Enemy" type="KinematicBody2D" groups=[
+"Enemies",
+]]
 
 [node name="Sprite" type="Sprite" parent="."]
 texture = ExtResource( 1 )
@@ -27,5 +30,12 @@ script = ExtResource( 3 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
 shape = SubResource( 2 )
+
+[node name="Eyes" type="Light2D" parent="."]
+enabled = false
+texture = ExtResource( 4 )
+
+[node name="AttackTimer" type="Timer" parent="."]
 [connection signal="body_entered" from="Area2D" to="MoveAI" method="BodyEntered"]
 [connection signal="body_exited" from="Area2D" to="MoveAI" method="BodyExited"]
+[connection signal="timeout" from="AttackTimer" to="MoveAI" method="AttackTimeOut"]

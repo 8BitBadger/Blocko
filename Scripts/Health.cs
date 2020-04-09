@@ -18,13 +18,18 @@ public class Health : Node
         {
             //Reduce the tanks health with the given amount
             health -= hei.damage;
-            //Broadcast the health after it has been modified to anyone who is listening
-            SendHealthEvent shei = new SendHealthEvent();
-            shei.health = health;
-            shei.target = hei.target;
-            shei.FireEvent();
+
             //Check if the health has gone down to zero
             CheckHealth();
+            
+            if (hei.target.IsInGroup("Player"))
+            {
+                //Broadcast the health after it has been modified to anyone who is listening
+                SendHealthEvent shei = new SendHealthEvent();
+                shei.health = health;
+                shei.target = hei.target;
+                shei.FireEvent();
+            }
         }
     }
     private void CheckHealth()
@@ -43,7 +48,6 @@ public class Health : Node
         dei.Description = "Unit " + this.Name + " has died.";
         dei.target = (Node2D)GetParent();
         dei.FireEvent();
-
         //Remove the parent node forn the scene
         dei.target.QueueFree();
     }

@@ -5,7 +5,7 @@ using EventCallback;
 public class Bullet : Area2D
 {
     [Export]
-    int speed = 300;
+    int speed = 500;
     Vector2 mousePos;
     Vector2 dir;
     // Called when the node enters the scene tree for the first time.
@@ -28,11 +28,18 @@ public class Bullet : Area2D
     }
     public void BodyEntered(Node node)
     {
-        GD.Print("Node man = " + node.Name);
         if (node.Name == "TileMap")
         {
             QueueFree();
         }
-
+       if (node.IsInGroup("Enemies"))
+        {
+            HitEvent hei = new HitEvent();
+            hei.target = (Node2D)node;
+            hei.attacker = ((Node2D)GetParent().GetParent());
+            hei.damage = 10;
+            hei.FireEvent();
+            QueueFree();
+        }
     }
 }

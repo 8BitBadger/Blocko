@@ -91,22 +91,31 @@ public class Lighting : Sprite
         int startX = (int)Position.x / 16;
         int startY = (int)Position.y / 16;
 
-        float[] regionTileInfo;
+        float[] regionTileInfo = new float[(int)(sizeInTiles.y - startY) + (int)(sizeInTiles.x - startX)];
 
         for (int y = startY; y < startY + sizeInTiles.y; y++)
         {
             for (int x = startX; x < startX + sizeInTiles.x; x++)
             {
-regionTileInfo[lightValues[x, y]]
+                if (WithinBounds(x, y)) regionTileInfo[y + x] = lightValues[x, y] * 255;
+                else regionTileInfo[y + x] = 255;
             }
         }
 
+        Image img = new Image();
+        byte[] byteRegionTileInfo = new byte[regionTileInfo.Length * 4];
+        Buffer.BlockCopy(regionTileInfo, 0, byteRegionTileInfo, 0, byteRegionTileInfo.Length);
+        img.CreateFromData((int)sizeInTiles.x, (int)sizeInTiles.y, false, Image.Format.L8, byteRegionTileInfo);
 
+        ImageTexture tex = new ImageTexture();
+        tex.CreateFromImage(img);
+        (this.Material as ShaderMaterial).SetShaderParam("lightValues", tex);
     }
 
     //  // Called every frame. 'delta' is the elapsed time since the previous frame.
     public override void _Process(float delta)
     {
         SetPosition();
+        SetShaderTiles();
     }
 }

@@ -17,7 +17,8 @@ public class Map : Node2D
     //Grab mouse clikced signal from the input manager, might need to assign input manager tot a node 2D in the main scnene itself
     public override void _Ready()
     {
-        random.Seed = 21;
+        //random.Seed = 21;
+        random.Randomize();
         //Create ne reference for the Simplex noise to be used for map generation
         noise = new OpenSimplexNoise();
         //Generate a random noise patern by using a randomized seed
@@ -27,7 +28,7 @@ public class Map : Node2D
         //noise.Persistence = 0.7f;
 
         MouseClickEvent.RegisterListener(CheckTileClicked);
-        MapInfoRequestEvent.RegisterListener();
+        MapInfoRequestEvent.RegisterListener(GetMapInfo);
 
         //Set the tile map data size
         tileDataMap = new Tile[(int)mapSize.x, (int)mapSize.y];
@@ -90,6 +91,7 @@ public class Map : Node2D
             }
         }
         tileMap.UpdateBitmaskRegion(new Vector2(0, 0), mapSize);
+
     }
     private void CheckTileClicked(MouseClickEvent mcei)
     {
@@ -107,7 +109,6 @@ public class Map : Node2D
             tdei.tileDestroyed = true;
             //Update the map once a tile has been changed
             tileMap.UpdateBitmaskRegion(mapPos - Vector2.One, mapPos + Vector2.One);
-
         }
         tdei.FireEvent();
     }
@@ -120,5 +121,6 @@ public class Map : Node2D
     public override void _ExitTree()
     {
         MouseClickEvent.UnregisterListener(CheckTileClicked);
+        MapInfoRequestEvent.UnregisterListener(GetMapInfo);
     }
 }

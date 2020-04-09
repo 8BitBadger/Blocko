@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Wall.png-c1e6c8a44733b40234aae37bb1bf51ff.stex"
+path="res://.import/ExitButton.png-052b3e06f54a76721f1d42c5d3d77c36.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Wall.png"
-dest_files=[ "res://.import/Wall.png-c1e6c8a44733b40234aae37bb1bf51ff.stex" ]
+source_file="res://Sprites/ExitButton.png"
+dest_files=[ "res://.import/ExitButton.png-052b3e06f54a76721f1d42c5d3d77c36.stex" ]
 
 [params]
 
@@ -20,7 +20,7 @@ compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=false
+flags/filter=true
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2

@@ -163,10 +163,14 @@ While(scanList.Count > 0)
                 {
                     if (tileMap.GetCell(x, y) == tileType && scanList[i] != new Vector2(x, y))
                     {
-bool scanlistContains = false;
+bool scanlistsContains = false;
 for (int h = 0; h < scanList.Count; h++) 
 {
-if(scanList[h] == new Vector2(x, y) scanlistContains = true;
+if(scanList[h] == new Vector2(x, y) scanlistsContains = true;
+} 
+for (int k = 0; k < scanedList.Count; k++) 
+{
+if(scanedList[k] == new Vector2(x, y) scanlistsContains = true;
 } 
 if(!scanlistContains) scanList.Add(new Vector2(x, y));
                     }

@@ -125,29 +125,32 @@ public class Main : Node2D
     private void SpawnArtifact(int tileType)
     {
         bool artifactPlaced = false;
+        bool areaScaned = false;
+        List<Vector2> bigestArea = new List<Vector2>();
+        List<Vector2> tempScanedTiles = new List<Vector2>();
+        
         for (int y = 0; y < mapSize.y; y++)
         {
             for (int x = 0; x < mapSize.x; x++)
             {
-                if (tileMap.GetCell(x, y) == 3)
+                if (tileMap.GetCell(x, y) == 3 && !areaScaned && tempScanedTiles.Count = 0;)
+                { 
+                    tempScanedTiles = GetArea(new Vector2(x,y), 3);              
+                }
+                else
                 {
-                    //Instanciate the player object
-                    player = playerScene.Instance();
-                    //Set the name of the player
-                    player.Name = "Player";
-                    //Set the position of the player at spawn
-                    ((Node2D)player).Position = new Vector2(x * 32, y * 32);
-                    //Set the player as a child of the main scene
-                    AddChild(player);
-                    artifactPlaced = true;
-                    break;
+                if(tempScanedTiles.Contains(new Vector2(x, y)
+                {
+                tempScanedTiles = GetArea(new Vector2(x,y), 3);
+                }
+                
                 }
             }
         }
 
     }
 
-    private void GetArea(Vector2 origen, int tileType)
+    private List<Vector2> GetArea(Vector2 origen, int tileType)
     {
         List<Vector2> scanList = new List<Vector2>();
         List<Vector2> scanedList = new List<Vector2>();
@@ -172,7 +175,7 @@ for (int k = 0; k < scanedList.Count; k++)
 {
 if(scanedList[k] == new Vector2(x, y) scanlistsContains = true;
 } 
-if(!scanlistContains) scanList.Add(new Vector2(x, y));
+if(!scanlistsContains) scanList.Add(new Vector2(x, y));
                     }
                 }
             }
@@ -186,7 +189,7 @@ if(!scanlistContains) scanList.Add(new Vector2(x, y));
         //Repeat above code until scan list is comepletly empty
 
 
-
+return scanedList;
     }
 
     private void SpawnEnemies()

@@ -153,7 +153,8 @@ public class Main : Node2D
         List<Vector2> scanedList = new List<Vector2>();
 
         scanList.Add(origen);
-
+While(scanList.Count > 0)
+{
         for (int i = 0; i < scanList.Count; i++)
         {
             for (int y = (int)(scanList[i].y - 1); y < (int)(scanList[i].y + 1); y++)
@@ -162,13 +163,19 @@ public class Main : Node2D
                 {
                     if (tileMap.GetCell(x, y) == tileType && scanList[i] != new Vector2(x, y))
                     {
-                        scanList.Add(new Vector2(x, y));
+bool scanlistContains = false;
+for (int h = 0; h < scanList.Count; h++) 
+{
+if(scanList[h] == new Vector2(x, y) scanlistContains = true;
+} 
+if(!scanlistContains) scanList.Add(new Vector2(x, y));
                     }
                 }
             }
             scanedList.Add(scanList[i]);
             scanList.RemoveAt(i);
         }
+}
         //Add the origen tile to a scan list
         //Get the neighbours of all the tiles inside the scan list and add them to the scan list if they are of the same type and are not on the scaned or scan list
         //Then move the origen tile to the scaned list

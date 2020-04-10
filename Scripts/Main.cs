@@ -19,6 +19,10 @@ public class Main : Node2D
     Node enemy;
     //A list of enemies
     List<Node> enemyList = new List<Node>();
+    //The packed scene for the artifact that will be instanced later
+    PackedScene artifactScene = new PackedScene();
+    //The node for the artifact that will be set to the instanced instance of the artifact packed scene
+    Node artifact;
     //The packed scene for the ui that will be instanced later
     PackedScene uiScene = new PackedScene();
     //The node for the ui that will be set to the instanced instance of the ui packed scene
@@ -27,7 +31,7 @@ public class Main : Node2D
     TileMap tileMap;
     Vector2 mapSize;
 
-    Vector2[] largestArtifactArea;
+    List<Vector2> largestArtifactArea;
 
     // Called when the node enters the scene tree for the first time.
     public override void _Ready()
@@ -36,6 +40,7 @@ public class Main : Node2D
         playerScene = ResourceLoader.Load("res://Scenes/Player.tscn") as PackedScene;
         mapScene = ResourceLoader.Load("res://Scenes/Map.tscn") as PackedScene;
         enemyScene = ResourceLoader.Load("res://Scenes/Enemy.tscn") as PackedScene;
+        artifactScene = ResourceLoader.Load("res://Scenes/Artifact.tscn") as PackedScene;
         uiScene = ResourceLoader.Load("res://Scenes/UI.tscn") as PackedScene;
         //The UI of the game
         ui = uiScene.Instance();
@@ -43,6 +48,7 @@ public class Main : Node2D
 
         SendUIEvent.RegisterListener(StartGame);
         DeathEvent.RegisterListener(LoseGame);
+        WinEvent.RegisterListener(WinGame);
     }
 
     private void StartGame(SendUIEvent suiei)
@@ -53,7 +59,7 @@ public class Main : Node2D
         }
     }
 
-    private void WinGame()
+    private void WinGame(WinEvent wei)
     {
         ClearScenes();
     }
@@ -82,10 +88,13 @@ public class Main : Node2D
         mirei.FireEvent();
         tileMap = mirei.tileMap;
         mapSize = mirei.mapSize;
+                //Spawn the artifact
+        SpawnArtifact();
         //Spawn the player in an open tile somewhere in the left uper corner of the map
         SpawnPlayer();
         //Spawn enemies across the map
         SpawnEnemies();
+
     }
 
     private void ClearScenes()
@@ -122,74 +131,93 @@ public class Main : Node2D
             }
         }
     }
-    private void SpawnArtifact(int tileType)
+    private void SpawnArtifact()
     {
         bool artifactPlaced = false;
         bool areaScaned = false;
+
         List<Vector2> bigestArea = new List<Vector2>();
-        List<Vector2> tempScanedTiles = new List<Vector2>();
-        
+        List<Vector2> tempArea = new List<Vector2>();
+
         for (int y = 0; y < mapSize.y; y++)
         {
             for (int x = 0; x < mapSize.x; x++)
             {
-                if (tileMap.GetCell(x, y) == 3 && !areaScaned && tempScanedTiles.Count = 0;)
-                { 
-                    tempScanedTiles = GetArea(new Vector2(x,y), 3);              
+                if (tileMap.GetCell(x, y) == (int)TileType.TREASURE)
+                {
+                    if (tempArea.Count != 0)
+                    {
+                        if (tempArea.Contains(new Vector2(x, y)))
+                        {
+
+                        }
+                        else
+                        {
+                            tempArea = GetArea(new Vector2(x, y), (int)TileType.TREASURE);
+
+                            if (tempArea.Count > bigestArea.Count) bigestArea = tempArea;
+                        }
+                    }
+                }
+
+                if (tileMap.GetCell(x, y) == (int)TileType.TREASURE && !areaScaned && tempArea.Count == 0)
+                {
+                    tempArea = GetArea(new Vector2(x, y), (int)TileType.TREASURE);
                 }
                 else
                 {
-                if(tempScanedTiles.Contains(new Vector2(x, y)
-                {
-                tempScanedTiles = GetArea(new Vector2(x,y), 3);
-                }
-                
-                }
-            }
-        }
-
-    }
-
-    private List<Vector2> GetArea(Vector2 origen, int tileType)
-    {
-        List<Vector2> scanList = new List<Vector2>();
-        List<Vector2> scanedList = new List<Vector2>();
-
-        scanList.Add(origen);
-While(scanList.Count > 0)
-{
-        for (int i = 0; i < scanList.Count; i++)
-        {
-            for (int y = (int)(scanList[i].y - 1); y < (int)(scanList[i].y + 1); y++)
-            {
-                for (int x = (int)(scanList[i].x - 1); x < (int)(scanList[i].y + 1); x++)
-                {
-                    if (tileMap.GetCell(x, y) == tileType && scanList[i] != new Vector2(x, y))
+                    if (tempArea.Contains(new Vector2(x, y)))
                     {
-bool scanlistsContains = false;
-for (int h = 0; h < scanList.Count; h++) 
-{
-if(scanList[h] == new Vector2(x, y) scanlistsContains = true;
-} 
-for (int k = 0; k < scanedList.Count; k++) 
-{
-if(scanedList[k] == new Vector2(x, y) scanlistsContains = true;
-} 
-if(!scanlistsContains) scanList.Add(new Vector2(x, y));
+                        //Do nothing if the tile is contained inside the tempArea
+                    }
+                    else
+                    {
+
                     }
                 }
             }
-            scanedList.Add(scanList[i]);
-            scanList.RemoveAt(i);
         }
-}
-        //Add the origen tile to a scan list
-        //Get the neighbours of all the tiles inside the scan list and add them to the scan list if they are of the same type and are not on the scaned or scan list
-        //Then move the origen tile to the scaned list
-        //Repeat above code until scan list is comepletly empty
+        artifact = artifactScene.Instance();
+        ((Node2D)artifact).Position = (bigestArea[bigestArea.Count / 2]) * 32;
+        AddChild(artifact);
+        artifactPlaced = true;
+    }
 
+    private List<Vector2> GetArea(Vector2 origin, int tileType)
+    {
+        List<Vector2> openList = new List<Vector2>();
+        List<Vector2> closedList = new List<Vector2>();
 
-return scanedList;
+        openList.Add(origin);
+
+        while (openList.Count > 0)
+        {
+            for (int i = 0; i < openList.Count; i++)
+            {
+                for (int y = (int)(openList[i].y - 1); y < (int)(openList[i].y + 1); y++)
+                {
+                    for (int x = (int)(openList[i].x - 1); x < (int)(openList[i].y + 1); x++)
+                    {
+                        if (tileMap.GetCell(x, y) == tileType && openList[i] != new Vector2(x, y))
+                        {
+                            bool scanlistsContains = false;
+                            for (int h = 0; h < openList.Count; h++)
+                            {
+                                if (openList[h] == new Vector2(x, y)) scanlistsContains = true;
+                            }
+                            for (int k = 0; k < closedList.Count; k++)
+                            {
+                                if (closedList[k] == new Vector2(x, y)) scanlistsContains = true;
+                            }
+                            if (!scanlistsContains) openList.Add(new Vector2(x, y));
+                        }
+                    }
+                }
+                closedList.Add(openList[i]);
+                openList.RemoveAt(i);
+            }
+        }
+        return closedList;
     }
 
     private void SpawnEnemies()
@@ -232,5 +260,8 @@ return scanedList;
     {
         SendUIEvent.UnregisterListener(StartGame);
         DeathEvent.UnregisterListener(LoseGame);
+        WinEvent.RegisterListener(WinGame);
     }
+
 }
+

@@ -54,6 +54,7 @@ public class UIControl : CanvasLayer
     {
         if (dei.target.IsInGroup("Player"))
         {
+            HideAll();
             DeathScreen.Show();
             SendUIEvent suiei = new SendUIEvent();
             suiei.showDeathScreen = true;

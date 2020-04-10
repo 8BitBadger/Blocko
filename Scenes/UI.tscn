@@ -1,4 +1,4 @@
-[gd_scene load_steps=21 format=2]
+[gd_scene load_steps=22 format=2]
 
 [ext_resource path="res://Sprites/StartButton.png" type="Texture" id=1]
 [ext_resource path="res://Sprites/ExitButton.png" type="Texture" id=2]
@@ -9,6 +9,7 @@
 [ext_resource path="res://Scripts/UIUpdate.cs" type="Script" id=7]
 [ext_resource path="res://Scripts/UIControl.cs" type="Script" id=8]
 [ext_resource path="res://Sprites/AmmoStack.png" type="Texture" id=9]
+[ext_resource path="res://Sprites/ArtifactWin.png" type="Texture" id=10]
 
 [sub_resource type="StyleBoxTexture" id=1]
 texture = ExtResource( 1 )
@@ -166,6 +167,21 @@ script = SubResource( 11 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="WinMessage" type="Label" parent="WinScreen"]
+margin_right = 256.0
+margin_bottom = 65.0
+rect_scale = Vector2( 5, 5 )
+text = "The artifact has been found, you can now close the dungeons gate for good, the dungeon will never spawn evil again into your world."
+align = 1
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="WinScreen"]
+position = Vector2( 639.432, 450.617 )
+texture = ExtResource( 10 )
 
 [node name="DeathScreen" type="Node2D" parent="."]
 visible = false

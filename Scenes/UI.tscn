@@ -1,4 +1,4 @@
-[gd_scene load_steps=22 format=2]
+[gd_scene load_steps=24 format=2]
 
 [ext_resource path="res://Sprites/StartButton.png" type="Texture" id=1]
 [ext_resource path="res://Sprites/ExitButton.png" type="Texture" id=2]
@@ -10,6 +10,8 @@
 [ext_resource path="res://Scripts/UIControl.cs" type="Script" id=8]
 [ext_resource path="res://Sprites/AmmoStack.png" type="Texture" id=9]
 [ext_resource path="res://Sprites/ArtifactWin.png" type="Texture" id=10]
+[ext_resource path="res://Scripts/ArtifactWin.cs" type="Script" id=11]
+[ext_resource path="res://Scripts/Eyes.cs" type="Script" id=12]
 
 [sub_resource type="StyleBoxTexture" id=1]
 texture = ExtResource( 1 )
@@ -39,8 +41,9 @@ texture = ExtResource( 2 )
 region_rect = Rect2( 0, 0, 300, 100 )
 modulate_color = Color( 0.0980392, 0.0980392, 0.0980392, 1 )
 
-[sub_resource type="OccluderPolygon2D" id=7]
-polygon = PoolVector2Array( 482.347, 223.761, 164.449, 222.329, 165.881, 362.663, 352.037, 362.663, 350.605, 421.374, 110.034, 421.374, 110.034, 166.483, 423.636, 166.483, 425.068, 66.2443, 480.915, 66.2443 )
+[sub_resource type="StreamTexture" id=7]
+flags = 4
+load_path = "res://.import/ArtifactWin.png-ffe4e6cccdf0cea03cd3806eef7ec6b9.stex"
 
 [sub_resource type="StyleBoxTexture" id=8]
 texture = ExtResource( 2 )
@@ -102,7 +105,6 @@ __meta__ = {
 }
 
 [node name="Menu" type="Node2D" parent="."]
-visible = false
 
 [node name="StartButton" type="Button" parent="Menu"]
 margin_top = 300.0
@@ -135,21 +137,33 @@ margin_bottom = 237.0
 size_flags_vertical = 3
 texture = ExtResource( 3 )
 
-[node name="Eyes1" type="Light2D" parent="Menu"]
-position = Vector2( 847.636, 130.575 )
-texture = ExtResource( 4 )
+[node name="ArtifactWin2" type="Sprite" parent="Menu"]
+position = Vector2( 948.834, 323.683 )
+scale = Vector2( 2, 2 )
+texture = SubResource( 7 )
+script = ExtResource( 11 )
 
-[node name="Eyes2" type="Light2D" parent="Menu"]
-position = Vector2( 1176.99, 139.167 )
+[node name="Eyes" type="Sprite" parent="Menu"]
+position = Vector2( 1110.68, 133.281 )
 texture = ExtResource( 4 )
+script = ExtResource( 12 )
 
-[node name="Eyes3" type="Light2D" parent="Menu"]
-position = Vector2( 975.082, 283.796 )
+[node name="Eyes2" type="Sprite" parent="Menu"]
+position = Vector2( 172.952, 250.695 )
+scale = Vector2( 3, 3 )
 texture = ExtResource( 4 )
+script = ExtResource( 12 )
 
-[node name="LightOccluder2D" type="LightOccluder2D" parent="Menu"]
-position = Vector2( 640, -2.59833 )
-occluder = SubResource( 7 )
+[node name="Eyes3" type="Sprite" parent="Menu"]
+position = Vector2( 1001.2, 607.698 )
+texture = ExtResource( 4 )
+script = ExtResource( 12 )
+
+[node name="Eyes4" type="Sprite" parent="Menu"]
+position = Vector2( 615.636, 364.936 )
+scale = Vector2( 2, 2 )
+texture = ExtResource( 4 )
+script = ExtResource( 12 )
 
 [node name="WinScreen" type="Node2D" parent="."]
 visible = false
@@ -179,9 +193,10 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Sprite" type="Sprite" parent="WinScreen"]
+[node name="ArtifactWin" type="Sprite" parent="WinScreen"]
 position = Vector2( 639.432, 450.617 )
 texture = ExtResource( 10 )
+script = ExtResource( 11 )
 
 [node name="DeathScreen" type="Node2D" parent="."]
 visible = false

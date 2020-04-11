@@ -56,6 +56,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Scripts\AreaScan.cs" />
     <Compile Include="Scripts\Artifact.cs" />
+    <Compile Include="Scripts\ArtifactWin.cs" />
     <Compile Include="Scripts\Bullet.cs" />
     <Compile Include="Scripts\EventSystem\MapInfoRequestEvent.cs" />
     <Compile Include="Scripts\EventSystem\MouseClickEvent.cs" />
@@ -70,6 +71,7 @@
     <Compile Include="Scripts\EventSystem\TileDestroyEvent.cs" />
     <Compile Include="Scripts\EventSystem\WinEvent.cs" />
     <Compile Include="Scripts\ExitButton.cs" />
+    <Compile Include="Scripts\Eyes.cs" />
     <Compile Include="Scripts\Health.cs" />
     <Compile Include="Scripts\InputControl.cs" />
     <Compile Include="Scripts\InputMove.cs" />
